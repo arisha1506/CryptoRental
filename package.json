@@ -1,10 +1,20 @@
 {
-  "name": "CryptoRental",
-  "version": "1.0.0",
-  "repository": "git@github.com:arisha1506/CryptoRental.git",
-  "author": "Arina Rybakova",
-  "license": "MIT",
-  "dependencies": {
-    "@openzeppelin/contracts": "4.4.0"
-  }
+    "name": "CryptoRental",
+    "version": "1.0.0",
+    "repository": "git@github.com:arisha1506/CryptoRental.git",
+    "author": "Arina Rybakova",
+    "license": "MIT",
+    "dependencies": {
+        "@openzeppelin/contracts": "4.4.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.0",
+        "yarn": "^1.22.19"
+    },
+    "scripts": {
+        "compile": "forge build",
+        "test": "forge test",
+        "size": "forge build --sizes --force --via-ir",
+        "prettier": "prettier --write ."
+    }
 }
