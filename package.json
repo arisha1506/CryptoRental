@@ -9,12 +9,13 @@
     },
     "devDependencies": {
         "prettier": "^2.8.0",
+        "prettier-plugin-solidity": "1.0.0-beta.13",
         "yarn": "^1.22.19"
     },
     "scripts": {
         "compile": "forge build",
         "test": "forge test",
         "size": "forge build --sizes --force --via-ir",
-        "prettier": "prettier --write ."
+        "prettier": "prettier --write **.sol"
     }
 }
