@@ -1,0 +1,10 @@
+{
+  "name": "CryptoRental",
+  "version": "1.0.0",
+  "repository": "git@github.com:arisha1506/CryptoRental.git",
+  "author": "Arina Rybakova",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "4.4.0"
+  }
+}
