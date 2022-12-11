@@ -15,6 +15,7 @@
     "scripts": {
         "compile": "forge build",
         "test": "forge test",
+        "coverage": "forge coverage",
         "size": "forge build --sizes --force --via-ir",
         "prettier": "prettier --write **.sol"
     }
